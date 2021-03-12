@@ -26,10 +26,10 @@ app = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     return 'Hello World! <br/> Chioma is the best! <br/> Hi Bapu! <br/> Yaya\'s garden is so nice! <br/> Great, Yaya is so nice! <br/><br/> who is nicer than yaya?<br/><br/> yaya grden is so nice!<br/><br/>Bapu made a .py program using the name of Samuel! '
-
+#changed the name string in this file
 # This Version Checked out from Github into Pycharm, this comment added, then returned to Github
 # I notice the length of delay is highly sensitive to where the "return" is placed relative to the three nested loops
-namestring="SamuelChukwuSmith"
+namestring="Yaya_Loves_Samuel!"
 def delay():
     for j in range (20000):
         q= 434345. / 4.555
@@ -73,6 +73,52 @@ for i in range (6):
     print("*" + modstring + "*")
     wait = delay()
 
+#This replaces the name string with symbols to create a sense of shape
+threestring = "oooooOO000OOooooo"
+onestring="..,,;;***oooOOO000"
+twostring="000OOOooo***;;,,.."
+def delay():
+    q=6
+    for j in range (2000):
+        q= 434345. / 4.555
+        for k in range (1000):
+            junk =3.666577545 /4.66666456
+            for n in range (700):
+                p = 665432.234 / 4.777
+        return junk
+for i in range (15):
+    modstring = threestring
+    print("*" + modstring + "*")
+    wait = delay()
+    modstring = onestring[1:16]
+    print(" *" + modstring + "*")
+    wait = delay()
+    modstring = onestring[2:15]
+    print("  *" + modstring + "*")
+    wait = delay()
+    modstring = onestring[3:12]
+    print("    *" + modstring + "*")
+    wait = delay()
+    modstring = onestring[5:10]
+    print("      *" + modstring + "*")
+    wait = delay()
+    print("         *0")
+    wait = delay()
+    modstring = twostring[5:10]
+    print("      *" + modstring + "*")
+    wait = delay()
+    modstring = twostring[3:12]
+    print("    *" + modstring + "*")
+    wait = delay()
+    modstring = twostring[2:15]
+    print("  *" + modstring + "*")
+    wait = delay()
+    modstring = twostring[1:16]
+    print(" *" + modstring + "*")
+    wait = delay()
+    modstring = threestring
+    print("*" + modstring + "*")
+    wait = delay()
 
 
 
